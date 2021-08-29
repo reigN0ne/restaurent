@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.home-description {
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+.home-button {
+  cursor: pointer;
+  border: none;
+  border: 0;
+  width: 50%;
+  height: 60px;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px black;
+  margin: auto;
+  margin-top: 100px;
+}

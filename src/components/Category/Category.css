@@ -1,0 +1,41 @@
+.category-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.category-card {
+  background-color: brown;
+  flex-basis: 0 !important;
+  flex-grow: 1 !important;
+  margin-right: 10px;
+  margin-left: 0 !important;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  display: flex;
+}
+
+.category-text {
+  left: 0;
+  padding: 0 20px 20px;
+  text-align: center;
+  color: white;
+}
+
+.category-card h3 {
+  margin: 20px;
+}
+
+.category-card-button {
+  margin-top: 5px;
+  background-color: grey;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 50px;
+}
